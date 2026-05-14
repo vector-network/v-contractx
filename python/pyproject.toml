@@ -1,0 +1,8 @@
+[project]
+name = "v-contractx-sim"
+version = "0.1.0"
+description = "Projection and reconstruction simulator for Vector Network"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+py-modules = ["simulate_projection"]

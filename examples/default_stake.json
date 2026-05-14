@@ -1,0 +1,26 @@
+{
+  "projectionId": "proj-1",
+  "sourceEntityId": "wallet-a",
+  "sourceSpaceId": "space-a",
+  "contractId": "stake-contract",
+  "sourceVector": {
+    "components": ["10", "5", "0"]
+  },
+  "lockedAmount": {
+    "components": ["5", "0", "0"]
+  },
+  "lockKind": "Stake",
+  "ruleEnvironment": "task-a",
+  "settlementRule": {
+    "allowGain": true,
+    "allowLoss": true,
+    "allowPartialRelease": true,
+    "allowStagedRelease": false,
+    "maxPhases": 1
+  },
+  "settlementTrigger": { "kind": "Manual" },
+  "drainPolicy": { "kind": "None" },
+  "certificationThreshold": 500000,
+  "createdByPk": "pk-a",
+  "parentRecordIds": []
+}
